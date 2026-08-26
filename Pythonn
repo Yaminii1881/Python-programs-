@@ -192,6 +192,175 @@ if num%2==0:
 else:
   print("It is odd number")
 
+#program26: Pass or Fail
+marks=int(input("Enter marks:"))
+if marks>=35:
+  print("You are Pass")
+else:
+  print("You are Fail")
+
+#program27: Printing 1 to n numbers using for loop
+n=int(input ("Enter value of n:"))
+for i in range(1,n+1):
+    print(i)
+
+#program28: printing even numbers between 1 to n using for loop
+n=int(input ("Enter value of n:"))
+for i in range (2,n+1,2):
+   print(i)
+
+#program29: Printing odd numbers between 1 to n uaing for loop
+n=int(input ("Enter value of n:"))
+for i in range(1,n+1):
+   if i%2!=0:
+     print(i)
+
+#program30:printing 100 to 1 using for loop 
+for i in range(100,1,-1):
+     print(i)
+
+#program31: Multiplication of a table 
+number=int(input("Enter a number:"))
+for i in range(1,11):
+   print(number,"X",i,"=",number*i)
+
+#program32: calculating sum using for loop
+sum=0
+for i in range(1,7):
+  sum+=i
+print(sum)
+
+#program33: counting how many even number between 1 to 20
+count=0
+for i in range(1,20):
+   if i%2==0:
+      count+=1
+print(count)
+
+#program34: Accumulator Condition 
+total=0
+for i in range(1,12):
+   total+=i
+print(total)
+
+#program35: printing 0to 10 using while loop
+i=0 
+while i<=10:
+  print(i)
+    i+=1
+
+#program36: Break Condition 
+for in in range(1,6):
+     if i==3:
+       break  
+      print(i)
+
+#program37: Continue Condition 
+for i in range (1,6):
+   if i==3:
+     continue 
+    print (i)
+
+#program38: Nested loops
+for i in range(1,6):
+    for j in range (1,4):
+        print(i,j)
+
+#program39: Multiplication tables using nested loop
+for i in range(1,4):
+    for j in range(1,11):
+        print(i,"X",j,"=",i*j)
+print()
+
+#program40: Counting how many students are passed
+marks=[34,45,33,46,40]
+count=0
+for mark in marks:
+   if marks>=35:
+     count+=1
+print(count)
+
+#program41: Factorial of a number 
+factorial=1
+for i in range(5):
+   factorial*=i
+print(factorial)
+
+#program42: Finding Largest number from several numbers 
+numbers=[54,56,67,78,89]
+largest=number[0]
+for num in numbers:
+    if num>largest:
+      largest=num
+print(largest)
+
+#program43: Simple attendance analyzer 
+total_classes=int(input("Enter total no of classes:"))
+attended_classes=int(input("Enter total no of attended classes:"))
+attendance=(attended_classes/total_classes)*100
+print("Attendance=", attendance,"%")
+if attendance>=75%:
+   print("You are Eligible")
+else:
+   print("You are not Eligible")
+
+#program44: Number analyzer 
+number=int(input("Enter a positive number:"))
+for i in range(1,number+1):
+   if i%2==0:
+      print(i,"Even")
+   else:
+      print(i,"Odd")
+
+#program45: printing Hello World using Functions 
+def function():
+  print("Hello World")
+function()
+
+#program46: Addition of two numbers using Functions 
+def add(a,b):
+   return a+b
+result=add(3,4)
+print(result)
+
+#program47: Printing square of a number using Functions 
+def square(n):
+  return n*n
+result=square(6)
+print(result)
+
+#program48: printing cube of a number using Functions
+def cube(a):
+   return a*a*a
+results=cube(3)
+print(result)
+
+#program49: checking Even or Odd using Functions 
+def even_odd(i):
+  if i%2==0:
+     return "Even"
+  else:
+     return "Odd"
+
+#program50: Find largest number using Functions 
+def largest(a,b):
+  if a>b:
+     return a
+  else:
+     return b
+print(largest(5,7))
+
+
+
+
+
+
+
+
+
+   
+     
+
 
 
 
