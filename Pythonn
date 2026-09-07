@@ -426,8 +426,65 @@ def marks(m1,m2,m3):
 print(marks(45,56,76))
 
 
+#program61: Accessing list values
+num=list(map(int,input().split()))
+print(num[2])
 
+#program62: Finding sum in a list
+numbers=list(map(int,input().split()))
+total=0
+for num in numbers:
+   total+=num
+print("Sum:", total)
 
+#program63: Finding Largest number in a list 
+numbers=[10,20,24,34,64,21]
+largest=numbers[0]
+for i in numbers:
+      if i>largest:
+          largest=i
+print(largest)
+
+#program64: Count how many are even numbers in a list
+num=list(map(int,input(). split()))
+count=0
+for i in num:
+   if i%2==0:
+     count+=1
+print("Total Even numbers:",count)
+
+#program65: calculating average of a list 
+numbers=[23,32,43,56,87]
+total=0
+for num in  numbers:
+   total+=num
+avg=total/ len( list)
+print(avg)
+
+#program66:  Finding Smallest number in a list 
+numbers=[43,54,23,12,46]
+smallest=list[0]
+for i in numbers:
+    if i<smallest: 
+     smallest=i
+print(smallest)
+
+#program67: Finding sum, largest number, smallest number, average of a list
+numbers=list(map(int,input().split()))
+total=0
+largest=numbers[0]
+smallest=numbers[0]
+for i in numbers:
+  total+=i
+  if i>largest:
+       largest=i
+  if i<smallest:
+        smallest=i
+avg=total/ len(numbers)
+print(sum)
+print(largest)
+print(smallest)
+print(average)
 
 
 
