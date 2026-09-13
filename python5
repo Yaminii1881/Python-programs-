@@ -1,0 +1,70 @@
+#program41: Factorial of a number 
+factorial=1
+for i in range(5):
+   factorial*=i
+print(factorial)
+--------------------------------------------
+#program42: Finding Largest number from several numbers 
+numbers=[54,56,67,78,89]
+largest=number[0]
+for num in numbers:
+    if num>largest:
+      largest=num
+print(largest)
+-----------------------------------------
+#program43: Simple attendance analyzer 
+total_classes=int(input("Enter total no of classes:"))
+attended_classes=int(input("Enter total no of attended classes:"))
+attendance=(attended_classes/total_classes)*100
+print("Attendance=", attendance,"%")
+if attendance>=75%:
+   print("You are Eligible")
+else:
+   print("You are not Eligible")
+---------------------------------------------
+#program44: Number analyzer 
+number=int(input("Enter a positive number:"))
+for i in range(1,number+1):
+   if i%2==0:
+      print(i,"Even")
+   else:
+      print(i,"Odd")
+--------------------------------------------
+#program45: printing Hello World using Functions 
+def function():
+  print("Hello World")
+function()
+--------------------------------------------
+#program46: Addition of two numbers using Functions 
+def add(a,b):
+   return a+b
+result=add(3,4)
+print(result)
+--------------------------------------------
+#program47: Printing square of a number using Functions 
+def square(n):
+  return n*n
+result=square(6)
+print(result)
+-------------------------------------------
+#program48: printing cube of a number using Functions
+def cube(a):
+   return a*a*a
+results=cube(3)
+print(result)
+--------------------------------------------
+#program49: checking Even or Odd using Functions 
+def even_odd(i):
+  if i%2==0:
+     return "Even"
+  else:
+     return "Odd"
+---------------------------------------------
+#program50: Find largest number using Functions 
+def largest(a,b):
+  if a>b:
+     return a
+  else:
+     return b
+print(largest(5,7))
+---------------------------------------------
