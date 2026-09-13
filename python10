@@ -1,0 +1,59 @@
+#program92:Creating a dictionary
+di={"name" :"Yamini", "age":#18}
+print(di) 
+-------------------------------
+#program93:Printing a key 
+di={"name" :"Yamini", "age":18}
+print(di["age"]) 
+--------------------------------
+#program94:Adding a item to dictionary 
+di={"name" :"Yamini", "age":18} 
+di["college"] ="vignan" 
+print(di) 
+-----------------------------------
+#program95:changing a key value
+di={"name" :"Yamini", "age":18}
+di["age"] =19
+print(di)
+------------------------------------
+#program96:Deleting a key
+di={"name" :"Yamini", "age":18}
+di. pop("name") 
+print(di) 
+----------------------------------
+#program97:Printing all keys and values
+di={"name" :"Yamini", "age" :18}
+print(di.keys)
+print(di values) 
+---------------------------------------
+#program98:checking a key
+s={"math"=86,"python"=90,"c"=89
+print("marks" in di) 
+print("name" in di) 
+--------------------------------------
+#program99:Find sum of values in dictionary 
+s={"math":86,"python":90,"c":89}
+total=sum(s.values())
+print(total) 
+----------------------------------------
+#program100:Finding highest value 
+s={"math":86,"python":90,"c":89} 
+highest=max(s,keys=s.get)
+print(highest) 
+---------------------------------------
+#program101:Printing output using conditions 
+marks={"x" :87,"y":80,"a":89,"b":88,"z":79}
+for name, marks in marks.items()
+    if mark>80:
+      print(name) 
+-----------------------------------------
+#program102:Printing key and values
+di={"name" :"Yamini", "age" :18}
+for key, value in di.items():
+      print(key,value) 
+-----------------------------------------
+
+
+
+
+
