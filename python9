@@ -1,0 +1,66 @@
+#program80:Creating a set
+s={1,2,3,4,5,6,7,8} 
+print(S) 
+---------------------------------------
+#program81:Adding element to a set
+s={1,2,3,4,5,6,7,8} 
+s.add(9)
+print(s_new) 
+--------------------------------------
+#program82:Removing a element from a set 
+t={1,2,3,4,5,6,7,8} 
+t.remove(7)
+print(t_new) 
+-------------------------------------
+#program83:Finding length of a string
+t={1,2,3,4,5,6,7,8} 
+print(len(t)) 
+--------------------------------------
+#program84:Union of two sets 
+t={1,2,3,4,}
+s={1,5,6} 
+print(t.union(s))
+------------------------------------
+#program85:intersection of two sets 
+t={1,2,3,4} 
+z={1,5,6,4} 
+print(t.intersection(z))
+---------------------------------------
+#program86:Find difference of two sets
+t={1,2,3,4} 
+z={1,5,6,4} 
+print(t-z) 
+-----------------------------------
+#program87:symmetric of two sets
+t={1,2,3,4} 
+s={3,4,5,6}
+print(t^s)
+-------------------------------------
+#program88:update of a set
+t={1,2,3,4} 
+t.update{5,6}	
+print(t) 
+-------------------------------------
+#program89:checking elements in a set
+t={1,2,3,4} 
+print(2 in t) 
+print(6 in t) 
+------------------------------------
+#program90:storing unique elements 
+numbers=set() 
+for i in range(5):
+  n=int(input("enter a number:")) 
+  numbers.add(n)
+print("unique elements :", numbers) 
+-----------------------------------------
+#program91:Intersection of three sets
+A={1,2,3,4} 
+B={3,4,5}
+C={3,4,5,6}
+result=se()
+for x in A:
+   if x in B and x in c:
+        result.add(x) 
+print(result) 
+-------------------------------------
+
