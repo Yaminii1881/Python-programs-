@@ -1,1 +1,48 @@
-                  TODAY PROGRAMS
+              TODAY PROGRAMS
+PROGRAM103:squares 1 to 10 using list comprehension 
+square=[x*x for x in range(1,11)]
+print(square) 
+---------------------------------------
+Program104:Creating a list having only even numbers using list comprehension 
+even=[x for in x in range(1,20) if x%2==0]
+print(even) 
+---------------------------------------
+Program105:Convert list into uppercase using list comprehension 
+names=["Sneha", "Hasini", "Yamini"] 
+uppercase=[name.upper for name in names] 
+print(uppercase) 
+-----------------------------------------
+Program106:Using enumerate
+fruits=("apple", "mango", "guava") 
+for index,fruit in enumerate (fruits, start=1):
+   print(index,fruit)
+------------------------------------------
+Program107:Using Zip
+names=["Tanu", "Chaitra", "Anu"] 
+marks=[95, 96,94]
+for name, mark in (names,marks) :
+   print(name, ":", mark)
+-------------------------------------------
+Program108:Separating positive and negative using list comprehension
+numbers=[1, 2-3,-6,-8,9,10]
+positive=[n for n in numbers if n>0]
+negative=[n for n in numbers if n<0]
+print(positive) 
+print(negative ) 
+------------------------------------------
+Program109:Highest marks
+students =["Yamini" :95,"Anu":98,"chaitra":99]
+for name, mark in student.item():
+   print(name, ":", mark) 
+highest_marks=(students, keys=students.get)
+print("highest scorer:", [highest_scorer]) 
+-------------------------------------------
+Program110:Separate even and odd using list comprehension 
+numbers=[1, 2,5,7,8,12,17,23]
+even=[n for n in numbers if n>0]
+odd=[n for n in numbers if n<0]
+print(even) 
+print(odd) 
+---------------------------------------
+
+
