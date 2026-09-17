@@ -44,5 +44,9 @@ odd=[n for n in numbers if n<0]
 print(even) 
 print(odd) 
 ---------------------------------------
-
-
+Program111:List of duplicates using list comprehension 
+numbers=[10,20,30,40,10,10]
+duplicates=list(set(num for num in numbers:
+                if numbers.count(num)>1)) 
+print(duplicates) 
+-------------------------------------------
