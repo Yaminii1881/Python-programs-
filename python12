@@ -1,1 +1,50 @@
-#program80
+#program112:math module
+import math 
+print(math.sqrt(16))
+
+OUTPUT:4.0
+--------------------------------—---------
+#program113:import random
+ import random 
+ print(random.randint(1,100))
+
+OUTPUT:89
+-----------------------------------------
+#program114:import statistics 
+import statistics 
+numbers=[1,2,3,4] 
+print(statistics.mean(num))
+
+OUTPUT:2.5
+----------------------------------------
+#program115:factorial using import math
+import math
+print(math.factorial(5))
+
+OUTPUT:120
+----------------------------------------
+#program116:Finding GCD
+import math
+a=12,b=18
+print(math.gcd(a,b)) 
+
+OUTPUT:6
+----------------------------------------
+#program117:Finding LCM
+import math 
+a=12,b=18
+print(math.lcm(a,b))
+
+OUTPUT:36
+------------------------------------------
+#program118:shuffling a list
+import random
+num=[1,2,3,] 
+(random.shuffle(num)
+print(num) 
+
+OUTPUT:[2,3,1]
+----------------------------------------
+
+
+
