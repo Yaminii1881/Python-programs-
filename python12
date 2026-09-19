@@ -45,6 +45,35 @@ print(num)
 
 OUTPUT:[2,3,1]
 ----------------------------------------
+#program119:Generating otp using random module
+import random
+otp=random.randint(100000,999999)
+print(otp) 
+
+OUTPUT:456321
+-----------------------------------------
+#program120:circle area using math module
+import math 
+ r=2;
+area=math.pi*r*r
+print(area) 
+----------------------------------------
+#program121:distance between two points using module 
+import math 
+x=2
+y=4
+z=6
+a=7
+print(math.sqrt((y-x)**2 +(a-z) **2)) 
+
+OUTPUT:5.0
+-------------------------------------------
+#program122:Using calendar module
+import calendar
+print(calendar.calendar(2026,10))
+
+OUTPUT:
+
 
 
 
